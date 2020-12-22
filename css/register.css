@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{  
+    font-family: Oxygen;
+    font-size:22px;
+    background-color:slategray;
+}
+
+  /* Add padding to containers */
+  .container {
+    width:30%;
+    margin:15% 20% 0 30%;
+    border:black solid px;
+    
+  }
+  
+  /* Full-width input fields */
+  input[type=text],input[type=tel],input[type=email],input[type=file], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: rgb(97, 51, 51);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #ffffff;
+    text-align: center;
+    margin:0;
+    padding:10px;
+    font-size: 18px;
+    margin-left: 30%;
+    width:30%;
+  }
+  .para{
+    text-align: center;
+  }
+
+
+  
